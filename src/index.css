@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dropzone{
+	border:dotted 2px gray;
+	margin-top:5%;
+  height:50vh;
+  font-size: 2rem;
+}
+.dropbox{
+  font-size: 5rem;
+}
+.form-control {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #232323;
+}
+.form-control:focus {
+  border-color: green;
+  outline: 0;
+  box-shadow:none;
+}
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #232323;
+}
+input:focus {
+  border-color: green;
+  outline: 0;
+  box-shadow:none;
+}
